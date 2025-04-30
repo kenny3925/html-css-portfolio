@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About HIC Mikrolab</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .logo img {
+            height: 80px;
+            width: 80px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .who {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        img.are {
+            width: 100%;
+            max-width: 700px;
+            height: 800px;
+            margin-right: 20px;
+            float: left;
+        }
+
+        .who-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 10px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        span {
+            color: green;
+            font-weight: lighter;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            border: none;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .who {
+                flex-direction: column;
+            }
+
+            img.are {
+                margin-right: 0;
+                margin-bottom: 20px;
+                float: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>About Us</h1>
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo.jpeg" alt="HIC Mikrolab Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="who">
+            <img src="image/about.jpg" alt="Team working on technology projects" class="are">
+            <div class="who-text">
+                <p><span>WHO WE ARE</span></p>
+                <h1>Empowering Tomorrow's Innovators</h1>
+                <p>Welcome to HIC Mikrolab. We are an innovative embedded systems and IoT solutions company specializing
+                    in electronics, mechatronics, and renewable energy systems. From hands-on workshops to practical
+                    project development, we are committed to delivering high-quality, scalable solutions that meet
+                    real-world needs.</p>
+
+                <h3>Our Mission</h3>
+                <p>To make technology more accessible through practical, hands-on learning and by developing impactful
+                    solutions in the fields of IoT, renewable energy, and electronics.</p>
+
+                <h3>Our Vision</h3>
+                <p>To be a leader in providing innovative technological solutions and to inspire future engineers
+                    through
+                    education and real-world project development.</p>
+
+                <h3>24/7 Premium Support</h3>
+                <p>Our team is available 24/7 to assist with course content and technical issues, ensuring a smooth
+                    learning experience.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HIC Mikrolab. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:support@hicmikrolab.com" style="color: lightgreen;">support@hicmikrolab.com</a>
+        </p>
+    </footer>
+</body>
+
+</html>
